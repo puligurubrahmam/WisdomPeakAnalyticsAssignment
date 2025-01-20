@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.details-container{
+    min-height: 100vh;
+    padding: 30px;
+}
+.loader-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-div{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.back-btn{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: gray;
+}
+.details-name-head{
+    font-size: 20px;
+    margin: 10px;
+}
+.deatils-para{
+    margin: 10px;
+    font-size: 15px;
+}
+.failure-container{
+    min-height: 100vh;
+    display: flex;
+}
+.failure-heading{
+    margin: auto;
+}

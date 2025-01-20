@@ -1,0 +1,146 @@
+.home-container{
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;  
+}
+.dark-background{
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+}
+.dark{
+    color: white;
+}
+.loader-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-container{
+    width: 60%;
+}
+.mode-btn{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+.sun{
+    color: white;
+}
+.users-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+}
+.link{
+    text-decoration: none;
+    width: 30%;
+    margin: 10px;
+}
+.users-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    height: 200px;
+}
+.name{
+    font-size: 18px;
+    color: darkgray;
+}
+.name-span{
+    color: black;
+}
+.email{
+    margin-top: 10px;
+    color:darkgray;
+}
+.email-span{
+    font-weight: bold;
+    color: black;
+}
+.city{
+    margin-top: 10px;
+    color: darkgray;
+}
+.city-span{
+    font-weight: bold;
+    color: black;
+}
+.search-input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 60%;
+    color: gray;
+    font-weight: 300;
+    outline: none;
+}
+.filter-input{
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 10px;
+    color: gray;
+    font-weight: bold;
+}
+.no-users-found{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:586px) {
+    .filter-input{
+        width: 33%;
+        font-size: 12px;
+    }
+    .home-container{
+        padding: 20px;
+    }
+    .users-list{
+        justify-content: center;
+    }
+    .link{
+        width: 80%;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .name{
+        font-size: 13px;
+    }
+    .city{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:586px) and (max-width:660px) {
+    .users-list{
+        justify-content: center;
+    }
+    .link{
+        width: 40%;
+    }
+}
+.failure-container{
+    min-height: 100vh;
+    display: flex;
+}
+.failure-heading{
+    margin: auto;
+}
