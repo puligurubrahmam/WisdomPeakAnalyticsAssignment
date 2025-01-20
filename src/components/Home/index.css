@@ -116,6 +116,9 @@
     .home-container{
         padding: 20px;
     }
+    .dark-background{
+        padding: 20px;
+    }
     .users-list{
         justify-content: center;
     }
