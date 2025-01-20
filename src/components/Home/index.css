@@ -107,8 +107,11 @@
 }
 @media screen and (max-width:586px) {
     .filter-input{
-        width: 33%;
+        width: 35%;
         font-size: 12px;
+    }
+    .search-input{
+        width: 40%;
     }
     .home-container{
         padding: 20px;
